@@ -5,7 +5,7 @@ A simple Dart program that calculates the sum of integers divisible by 3 or 5 up
 This Dart program allows users to input a positive integer and calculates the sum of all integers that are divisible by 3 or 5 and are less than the provided number.
 
 ## Installation
-Make sure you have Dart installed on your machine. If not, you can download it [here](https://dart.dev/get-dart){:target="_blank"}.
+Make sure you have Dart installed on your machine. If not, you can download it [here](https://dart.dev/get-dart).
 
 ## Usage
 To use the program, follow these steps:
