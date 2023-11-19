@@ -13,23 +13,19 @@ class DividersSum {
       print("\nDigite um número inteiro positivo: ");
       recivedNumber = stdin.readLineSync()!;
 
-      if (recivedNumber != null) {
-        try {
-          checkNumber(int.parse(recivedNumber));
-        } catch (e) {
-          print("Por favor, digite um número\n");
-        }
-      } else {
-        print("O número não pode ser nulo\n");
+      try {
+        checkNumber(int.parse(recivedNumber));
+      } catch (e) {
+        print("--Por favor, digite um número--\n");
       }
 
       print(
           "Para sair digite a letra 's'.\nPara continuar digite qualquer tecla: ");
       exit = stdin.readLineSync()!;
-    } while (exit!.toLowerCase() != 's');
+    } while (exit.toLowerCase() != 's');
   }
 
-//Method for traitments
+//Method for processing/treatments
   void checkNumber(int number) {
     int finalSum = 0;
 
@@ -44,7 +40,7 @@ class DividersSum {
     }
   }
 
-//Method to make the divisions and the somatory
+//Method to perform divisions and calculate the sum
   int divide(int number) {
     int sum = 0;
 
