@@ -10,8 +10,8 @@
 //procurar a forma de compartilhar fácil um executável do programa em dart
 //evitando muita instalação
 
-import 'Utils.dart';
+import 'DividersSum.dart';
 
 main() {
-  Utils().menu();
+  DividersSum().menu();
 }
