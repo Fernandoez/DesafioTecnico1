@@ -22,10 +22,10 @@ cd seu-repositorio
 dart main.dart
 ```
 ## Execution
-The program will prompt you to enter a positive integer.
-Enter the desired number when prompted.
-The program will calculate the sum of all integers divisible by 3 or 5 that are less than the provided number.
-The result will be displayed in the console.
+* The program will prompt you to enter a positive integer.
+* Enter the desired number when prompted.
+* The program will calculate the sum of all integers divisible by 3 or 5 that are less than the provided number.
+* The result will be displayed in the console.
 
 Example Execution:
 ```bash
